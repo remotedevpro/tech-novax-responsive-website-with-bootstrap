@@ -1,0 +1,1687 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap Link added below-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap icons link added below-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!--Google fonts link added-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Custom CSS file link-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Responsive Tech Company Website with Bootstrap</title>
+  </head>
+  <body>
+    <!-- ================= NAVBAR ==============-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Tech-NovaX</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link active">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#services" class="nav-link active">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link active">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#testimonials" class="nav-link active">Testimonials</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link active">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= END NAVBAR ================= -->
+
+    <!-- ================= HEADER / HERO SECTION ===     -->
+
+    <header class="bg-primary d-flex align-items-center text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <h1 class="header-title p-4">
+              Discover <br />What we Can <br />
+              Achieve Together
+            </h1>
+
+            <p class="lead">
+              Join us on journey of innovation and success. We are committed to
+              delivering solutions that elevate your business and turn your
+              vision into reality.
+            </p>
+
+            <div class="d-flex gap-5 mb-3 py-3">
+              <button class="btn btn-warning rounded-pill">
+                Discover More
+              </button>
+
+              <button class="btn btn-success rounded-pill">Get Started</button>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <img
+              src="images/hero-image/hero-image.jpg"
+              class="img-fluid rounded shadow"
+              alt="Header Image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= END HEADER / HERO ================= -->
+
+    <!-- ================= CLIENTS SECTION ===     -->
+
+    <section id="clients" class="clients-section py-5">
+      <div class="container">
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary px-3 py-2 mb-3">
+            Trusted Worldwide
+          </span>
+
+          <h2 class="display-5 fw-bold">Trusted by Industry Leaders</h2>
+
+          <p class="lead text-secondary">
+            Powering innovation for startups and enterprises across the globe
+          </p>
+        </div>
+
+        <div
+          class="row justify-content-center align-items-center text-center g-5"
+        >
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://www.google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/Google/Google.png"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 1 Google"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://www.ibm.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/ibm/ibm.png"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 2 IBM"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://www.netflix.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/netflix/netflix.png"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 3 NETFLIX"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://www.spotify.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/spotify/SPOTIFY.jpg"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 4 SPOTIFY"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://www.uber.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/uber/uber.png"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 5 UBER"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="client-card">
+              <a
+                href="https://aws.amazon.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="images/clients/aws/download.png"
+                  class="img-fluid p-3 bg-white shadow-sm rounded"
+                  style="height: 90px; width: 150px; object-fit: contain"
+                  alt="Client 6 AWS"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= END CLIENTS ================= -->
+
+    <hr class="my-2" />
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+
+    <section
+      id="about"
+      class="about-section py-5 position-relative overflow-hidden"
+    >
+      <div class="container">
+        <!-- Section Heading -->
+
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary px-4 py-2 rounded-1 mb-3">
+            About Tech-Novax
+          </span>
+
+          <h2 class="display-5 fw-bold">
+            Building Digital Solutions
+            <br />
+            That Transform Businesses
+          </h2>
+
+          <p class="lead text-secondary mx-auto" style="max-width: 700px">
+            We help organizations innovate, scale and succeed by delivering
+            world-class software, cloud and infrastructure solutions.
+          </p>
+        </div>
+
+        <div class="row align-items-center g-5">
+          <!-- LEFT COLUMN -->
+
+          <div class="col-lg-5">
+            <div class="position-relative">
+              <div class="about-bg-circle"></div>
+
+              <img
+                src="images/about-image/about-image-trimmed.png"
+                class="img-fluid rounded-5 shadow-lg about-image"
+                alt="About Tech-Novax"
+              />
+
+              <!-- Floating Card -->
+
+              <!--
+              <div class="experience-card">
+                <h2 class="fw-bold text-primary mb-1">10+</h2>
+
+                <small class="text-muted">
+                  Years of
+                  <br />
+                  Experience
+                </small>
+              </div>
+            --></div>
+          </div>
+
+          <!-- RIGHT COLUMN -->
+
+          <div class="col-lg-7">
+            <h3 class="fw-bold">Who We Are</h3>
+
+            <p class="lead text-secondary">
+              Tech-Novax is a forward-thinking technology company dedicated to
+              helping businesses embrace digital transformation through software
+              engineering, cloud technologies, cybersecurity, IT infrastructure
+              and enterprise consulting.
+            </p>
+
+            <!-- Highlight Card -->
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body">
+                <h5 class="fw-bold">Our Commitment</h5>
+
+                <p class="text-secondary mb-0">
+                  We combine innovation, technical excellence and customer-first
+                  thinking to deliver secure, scalable and future-ready
+                  technology solutions.
+                </p>
+              </div>
+            </div>
+
+            <!-- Features -->
+
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i
+                  >Certified Professionals
+                </p>
+
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i
+                  >Secure IT Solutions
+                </p>
+
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i
+                  >Customer-Centric Approach
+                </p>
+              </div>
+
+              <div class="col-md-6">
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i
+                  >Global Technology Standards
+                </p>
+
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i
+                  >Innovation Driven
+                </p>
+
+                <p>
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>24/7
+                  Technical Support
+                </p>
+              </div>
+            </div>
+
+            <!-- Mission Vision -->
+
+            <div class="row g-3 my-4">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100 rounded-4">
+                  <div class="card-body">
+                    <i class="bi bi-bullseye text-primary display-6"></i>
+
+                    <h5 class="fw-bold mt-3">Our Mission</h5>
+
+                    <p class="text-secondary">
+                      Deliver reliable technology solutions that accelerate
+                      business growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100 rounded-4">
+                  <div class="card-body">
+                    <i class="bi bi-eye-fill text-success display-6"></i>
+
+                    <h5 class="fw-bold mt-3">Our Vision</h5>
+
+                    <p class="text-secondary">
+                      Become one of Africa's most trusted global technology
+                      partners.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Card -->
+
+            <div class="card border-0 shadow rounded-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-4">Core Competencies</h5>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <span>Software Development</span>
+
+                    <span>95%</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <span>Cloud Computing</span>
+
+                    <span>92%</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-success"
+                      style="width: 92%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between">
+                    <span>Cybersecurity</span>
+
+                    <span>90%</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <span>Network Infrastructure</span>
+
+                    <span>96%</span>
+                  </div>
+
+                  <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 96%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="mt-5">
+              <a
+                href="#projects"
+                class="btn btn-primary btn-lg rounded-pill px-4 me-3"
+              >
+                View Projects
+              </a>
+
+              <a href="#contact" class="btn btn-dark btn-lg rounded-pill px-4">
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================END  ABOUT SECTION ===================== -->
+
+    <!-- ================= SERVICES SECTION ===     -->
+
+    <section id="services" class="py-5 services-section">
+      <div class="container">
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary px-3 py-2 mb-3"> Our Services </span>
+
+          <h2 class="display-5 fw-bold">Innovative Technology Solutions</h2>
+
+          <p class="lead text-muted">
+            Helping businesses embrace digital transformation with cutting edge
+            IT solution
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-1 rounded-5 shadow bg- h-100 overflow-hidden service card"
+            >
+              <div class="card-body text-center">
+                <i class="bi bi-cloud-arrow-up-fill display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Cloud Solutions</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  Accelerate your business with secure cloud migration,
+                  infrastructure deployment, cloud storage, and scalable
+                  computing solutions across leading cloud platforms.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-1 rounded-5 shadow-sm h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-shield-lock-fill display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Cyber Security</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  Protect your digital assets with advanced cybersecurity
+                  services including threat detection, vulnerability
+                  assessments, network security, and data protection strategies.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-1 rounded-5 shadow-sm h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-diagram-3-fill display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Network Infrastructure</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  Build reliable, high-performance network infrastructures with
+                  professional LAN/WAN design, wireless networking, server
+                  deployment, and IT infrastructure management.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-1 rounded-5 shadow-sm h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-cpu-fill display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Data Management & Analytics</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  Unlock the value of your business data through secure data
+                  management, real-time dashboards, reporting, and intelligent
+                  analytics for informed decision-making.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-1 rounded shadow-sm h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-people-fill display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Digital Transformation Consulting</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  We help businesses embrace digital transformation through
+                  strategic technology planning, process optimization,
+                  automation, and innovative IT consulting services.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-1 rounded-5 shadow-sm h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-code-slash display-4 text-primary"></i>
+                <h4 class="mt-3 fw-bold">Software Development</h4>
+
+                <hr class="w-25 mx-auto my-3" />
+
+                <p class="text-muted">
+                  Custom web, desktop and enterprise applications tailored to
+                  your business.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= END SERVICES ================= -->
+
+    <!-- ================= STATISTICS SECTION ===     -->
+
+    <section id="statistics" class="stats-section py-5">
+      <div class="container">
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary px-3 py-2 mb-3">
+            Why Choose Tech-Novax
+          </span>
+
+          <h2 class="fw-bold display-5">Our Impact in Numbers</h2>
+
+          <p class="lead text-secondary">
+            Delivering measurable results through innovation, reliability and
+            technical excellence.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-2">
+            <div class="card stat-card border-0 h-100">
+              <div class="card-body">
+                <i class="bi bi-kanban-fill display-5 text-primary"></i>
+
+                <h3 class="fw-bold mt-3">500+</h3>
+
+                <p class="text-muted mb-0">Projects Delivered</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-2">
+            <div class="card stat-card border-0 h-100">
+              <div class="card-body">
+                <i class="bi bi-buildings-fill display-5 text-success"></i>
+
+                <h3 class="fw-bold mt-3">120+</h3>
+
+                <p class="text-muted mb-0">Enterprise Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-2">
+            <div class="card stat-card border-0 h-100">
+              <div class="card-body">
+                <i class="bi bi-globe display-5 text-info"></i>
+
+                <h3 class="fw-bold mt-3">15</h3>
+
+                <p class="text-muted mb-0">Countries Served</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card stat-card border-0 h-100">
+              <div class="card-body">
+                <i
+                  class="bi bi-kanban-fill stat-icon display-5 text-primary"
+                ></i>
+
+                <h3 class="fw-bold mt-3">99.9%</h3>
+
+                <p class="text-muted mb-0">Guaranteed Uptime</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-3">
+            <div class="card stat-card border-0 h-100">
+              <div class="card-body">
+                <i
+                  class="bi bi-kanban-fill stat-icon display-5 text-primary"
+                ></i>
+
+                <h3 class="fw-bold mt-3">24 / 7</h3>
+
+                <p class="text-muted mb-0">Technical Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= END STATISTICS ================= -->
+
+    <!-- ===================== PROJECTS SECTION ===================== -->
+
+    <section id="projects" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <!-- Heading -->
+
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary px-4 py-2 mb-3"> Our Portfolio </span>
+
+          <h2 class="display-5 fw-bold">Featured Projects</h2>
+
+          <p class="lead text-secondary mx-auto" style="max-width: 700px">
+            We build secure, scalable and innovative technology solutions that
+            empower businesses to grow and compete in the digital world.
+          </p>
+        </div>
+
+        <!-- Projects -->
+
+        <div class="row g-4">
+          <!-- Project 1 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/projects/ERP.jpg"
+                  class="card-img-top project-img"
+                  alt="ERP System"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-primary mb-2"> Enterprise Software </span>
+
+                <h4 class="fw-bold">ERP Management System</h4>
+
+                <p class="text-secondary">
+                  Complete enterprise resource planning solution for managing
+                  finance, HR, inventory, procurement and reporting.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">Bootstrap</span>
+
+                  <span class="badge text-bg-light border">Django</span>
+
+                  <span class="badge text-bg-light border">PostgreSQL</span>
+                </div>
+
+                <a href="#" class="btn btn-primary rounded-pill">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/projects/cloud-services.jpg"
+                  class="card-img-top project-img"
+                  alt="Cloud Computing"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-success mb-2"> Cloud Computing </span>
+
+                <h4 class="fw-bold">Cloud Infrastructure</h4>
+
+                <p class="text-secondary">
+                  Designed and deployed scalable cloud infrastructure with high
+                  availability, disaster recovery and automation.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">AWS</span>
+
+                  <span class="badge text-bg-light border">Azure</span>
+
+                  <span class="badge text-bg-light border">Docker</span>
+                </div>
+
+                <a href="#" class="btn btn-success rounded-pill">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/services/cybersecurity.jpg"
+                  class="card-img-top project-img"
+                  alt="Cyber Security"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-danger mb-2"> Cybersecurity </span>
+
+                <h4 class="fw-bold">Security Operations Center</h4>
+
+                <p class="text-secondary">
+                  Centralized monitoring dashboard for cyber threat detection,
+                  incident response and network security.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">SIEM</span>
+
+                  <span class="badge text-bg-light border">SOC</span>
+
+                  <span class="badge text-bg-light border">Firewall</span>
+                </div>
+
+                <a href="#" class="btn btn-danger rounded-pill">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/projects/data-analytic-software-project.jpg"
+                  class="card-img-top project-img"
+                  alt="Dashboard"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-warning text-dark mb-2">
+                  Data Analytics
+                </span>
+
+                <h4 class="fw-bold">Business Intelligence Dashboard</h4>
+
+                <p class="text-secondary">
+                  Interactive analytics platform providing real-time reporting
+                  and executive decision support.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">Power BI</span>
+
+                  <span class="badge text-bg-light border">SQL</span>
+
+                  <span class="badge text-bg-light border">Charts</span>
+                </div>
+
+                <a href="#" class="btn btn-warning rounded-pill">
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/projects/web-design-and-dev-project.jpg"
+                  class="card-img-top project-img"
+                  alt="Website development"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-info mb-2"> Web Development </span>
+
+                <h4 class="fw-bold">Corporate Website</h4>
+
+                <p class="text-secondary">
+                  Responsive business website with CMS, SEO optimization and
+                  modern UI/UX.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">Bootstrap</span>
+
+                  <span class="badge text-bg-light border">JavaScript</span>
+
+                  <span class="badge text-bg-light border">SEO</span>
+                </div>
+
+                <a href="#" class="btn btn-info rounded-pill"> View Project </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow h-100 overflow-hidden project-card"
+            >
+              <div class="overflow-hidden">
+                <img
+                  src="images/projects/mobile.jpg"
+                  class="card-img-top project-img"
+                  alt="Mobile computing"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-dark mb-2"> Mobile App </span>
+
+                <h4 class="fw-bold">Smart Business Mobile App</h4>
+
+                <p class="text-secondary">
+                  Cross-platform mobile solution for customer engagement, online
+                  services and productivity.
+                </p>
+
+                <div class="mb-3">
+                  <span class="badge text-bg-light border">Flutter</span>
+
+                  <span class="badge text-bg-light border">Firebase</span>
+
+                  <span class="badge text-bg-light border">Android</span>
+                </div>
+
+                <a href="#" class="btn btn-dark rounded-pill"> View Project </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End of portfolio / projects-->
+
+    <!--======TESTIMONIAL -->
+
+    <section id="testimonials" class="testimonial-section py-5">
+      <div class="container">
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary rounded-pill px-4 py-2 mb-3">
+            Client Testimonials
+          </span>
+
+          <h2 class="display-5 fw-bold">What Our Clients Say</h2>
+
+          <p class="lead text-muted mx-auto" style="max-width: 700px">
+            Trusted by businesses worldwide for delivering innovative technology
+            solutions.
+          </p>
+        </div>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="6000"
+        >
+          <!-- Indicators -->
+
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="1"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- ===================== -->
+            <!-- SLIDE ONE -->
+            <!-- ===================== -->
+
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <!-- CARD 1 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-one.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>John Anderson</h5>
+
+                    <span>Chief Technology Officer</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "Tech-Novax completely modernized our IT infrastructure.
+                      Outstanding technical expertise."
+                    </p>
+                  </div>
+                </div>
+
+                <!-- CARD 2 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-two.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>Michael Brown</h5>
+
+                    <span>CEO</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "The team delivered our cloud migration ahead of schedule.
+                      Fantastic experience."
+                    </p>
+                  </div>
+                </div>
+
+                <!-- CARD 3 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-three.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>Sarah Johnson</h5>
+
+                    <span>Operations Director</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "Our cybersecurity posture improved tremendously. Highly
+                      recommended."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===================== -->
+            <!-- SLIDE TWO -->
+            <!-- ===================== -->
+
+            <div class="carousel-item">
+              <div class="row g-4">
+                <!-- CARD 4 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-four.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>David Wilson</h5>
+
+                    <span>Project Manager</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "Professional, responsive and incredibly knowledgeable. We
+                      will definitely work together again."
+                    </p>
+                  </div>
+                </div>
+
+                <!-- CARD 5 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-five.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>Emily Carter</h5>
+
+                    <span>IT Director</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "Our digital transformation project exceeded all
+                      expectations."
+                    </p>
+                  </div>
+                </div>
+
+                <!-- CARD 6 -->
+
+                <div class="col-lg-4">
+                  <div class="testimonial-card">
+                    <img
+                      src="images/testimonials/client-six.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+
+                    <h5>Daniel Smith</h5>
+
+                    <span>Managing Director</span>
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                      "Reliable, innovative and highly skilled professionals.
+                      Couldn't ask for more."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous -->
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="custom-arrow">
+              <i class="bi bi-chevron-left"></i>
+            </span>
+          </button>
+
+          <!-- Next -->
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="custom-arrow">
+              <i class="bi bi-chevron-right"></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="text-center mb-5 fs-3">
+          <span class="badge bg-primary rounded-pill px-4 py-2 mb-3">
+            Contact Us
+          </span>
+
+          <h2 class="display-5 fw-bold">
+            Let's Build Something Great Together
+          </h2>
+
+          <p class="lead text-muted mx-auto" style="max-width: 750px">
+            We'd love to hear about your project. Whether you need software
+            development, cloud solutions, cybersecurity, consulting or IT
+            support, our experts are ready to help.
+          </p>
+        </div>
+
+        <div class="row g-5">
+          <!-- ===================================== -->
+          <!-- LEFT COLUMN -->
+          <!-- ===================================== -->
+
+          <div class="col-lg-5">
+            <div class="contact-info-card h-100">
+              <h3 class="fw-bold mb-4">
+                <i class="bi bi-chat-dots-fill text-primary me-2"></i>
+
+                Contact Information
+              </h3>
+
+              <p class="text-muted mb-5">
+                Reach us using any of the following channels.
+              </p>
+
+              <!-- Address -->
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+
+                <div>
+                  <h5>Office Address</h5>
+
+                  <p>
+                    25 Innovation Drive<br />
+
+                    Victoria Island<br />
+
+                    Lagos, Nigeria
+                  </p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+
+                <div>
+                  <h5>Phone</h5>
+
+                  <p>+234 800 123 4567</p>
+                </div>
+              </div>
+
+              <!-- Email -->
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+
+                <div>
+                  <h5>Email</h5>
+
+                  <p>info@technovax.com</p>
+                </div>
+              </div>
+
+              <!-- Website -->
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-globe2"></i>
+                </div>
+
+                <div>
+                  <h5>Website</h5>
+
+                  <p>www.technovax.com</p>
+                </div>
+              </div>
+
+              <!-- Hours -->
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+
+                <div>
+                  <h5>Business Hours</h5>
+
+                  <p>
+                    Monday - Friday<br />
+
+                    8:00 AM - 6:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================== -->
+          <!-- RIGHT COLUMN -->
+          <!-- ===================================== -->
+
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h3 class="fw-bold mb-4">Send Us A Message</h3>
+
+              <form
+                action="https://formsubmit.co/nurudeen.abdulsalam@gmail.com"
+                method="POST"
+                id="contactForm"
+                autocomplete="on"
+              >
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false" />
+
+                <!-- Email Subject -->
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Message from Tech-Novax Website"
+                />
+
+                <!-- Redirect after submission -->
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/thankyou.html"
+                />
+
+                <div
+                  id="successAlert"
+                  class="alert alert-success d-none"
+                  role="alert"
+                >
+                  Your message has been sent successfully.
+                </div>
+
+                <div class="row">
+                  <!-- Full Name -->
+
+                  <div class="col-md-6 mb-4">
+                    <label for="fullname" class="form-label"> Full Name </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-person-fill"></i>
+                      </span>
+
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="John Doe"
+                        autocomplete="name"
+                        required
+                        tabindex="1"
+                        aria-required="true"
+                      />
+
+                      <div class="invalid-feedback">
+                        Please enter your full name.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+
+                  <div class="col-md-6 mb-4">
+                    <label for="email" class="form-label">
+                      Email Address
+                    </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-envelope-fill"></i>
+                      </span>
+
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="john@example.com"
+                        autocomplete="email"
+                        required
+                        tabindex="2"
+                        aria-required="true"
+                      />
+
+                      <div class="invalid-feedback">
+                        Please enter a valid email.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Phone -->
+
+                  <div class="col-md-6 mb-4">
+                    <label for="phone" class="form-label"> Phone Number </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-telephone-fill"></i>
+                      </span>
+
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        name="phone"
+                        placeholder="+234..."
+                        autocomplete="tel"
+                        tabindex="3"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Company -->
+
+                  <div class="col-md-6 mb-4">
+                    <label for="company" class="form-label"> Company </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-building"></i>
+                      </span>
+
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="company"
+                        name="company"
+                        placeholder="Company Name"
+                        autocomplete="organization"
+                        tabindex="4"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Subject -->
+
+                  <div class="mb-4">
+                    <label for="subject" class="form-label"> Subject </label>
+
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      name="subject"
+                      required
+                      tabindex="5"
+                    />
+
+                    <div class="invalid-feedback">Subject is required.</div>
+                  </div>
+
+                  <!-- Message -->
+
+                  <div class="mb-4">
+                    <label for="message" class="form-label"> Message </label>
+
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      rows="6"
+                      required
+                      tabindex="6"
+                      aria-describedby="messageHelp"
+                    ></textarea>
+
+                    <small id="messageHelp" class="text-muted">
+                      Please provide as much detail as possible.
+                    </small>
+
+                    <div class="invalid-feedback">
+                      Please enter your message.
+                    </div>
+                  </div>
+
+                  <!-- Checkbox -->
+
+                  <div class="form-check mb-4">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agree"
+                      name="agree"
+                      required
+                      tabindex="7"
+                    />
+
+                    <label class="form-check-label" for="agree">
+                      I agree to the processing of my information.
+                    </label>
+
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+
+                  <!-- Submit -->
+
+                  <div>
+                    <button
+                      class="btn btn-primary btn-lg rounded-pill px-5"
+                      type="submit"
+                      tabindex="8"
+                    >
+                      <span
+                        class="spinner-border spinner-border-sm d-none"
+                        id="submitSpinner"
+                      ></span>
+
+                      <i class="bi bi-send-fill me-2"></i>
+
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= END CONTACT SECTION ================= -->
+
+    <!--footer-->
+
+    <!-- ===================== FOOTER ===================== -->
+
+    <footer class="footer-section pt-5 pb-3">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Company -->
+
+          <div class="col-lg-4">
+            <h3 class="footer-logo">
+              <!-- <i class="bi bi-cpu-fill me-2"></i>-->
+
+              <a class="navbar-brand fw-bold" href="#">Tech-NovaX</a>
+            </h3>
+
+            <p class="footer-text">
+              Delivering innovative software engineering, cloud computing,
+              cybersecurity and enterprise technology solutions that empower
+              businesses to grow globally.
+            </p>
+
+            <div class="footer-social mt-4">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+              <a href="#"><i class="bi bi-instagram"></i></a>
+
+              <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+
+          <div class="col-md-4 col-lg-2">
+            <h5 class="footer-title">Quick Links</h5>
+
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+
+              <li><a href="#about">About</a></li>
+
+              <li><a href="#services">Services</a></li>
+
+              <li><a href="#projects">Projects</a></li>
+
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+
+          <div class="col-md-4 col-lg-3">
+            <h5 class="footer-title">Our Services</h5>
+
+            <ul class="footer-links">
+              <li>Software Development</li>
+
+              <li>Cloud Computing</li>
+
+              <li>Cyber Security</li>
+
+              <li>IT Infrastructure</li>
+
+              <li>Data Analytics</li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+
+          <div class="col-md-4 col-lg-3">
+            <h5 class="footer-title">Contact Info</h5>
+
+            <p>
+              <i class="bi bi-geo-alt-fill me-2"></i>
+
+              Victoria Island, Lagos
+            </p>
+
+            <p>
+              <i class="bi bi-envelope-fill me-2"></i>
+
+              info@technovax.com
+            </p>
+
+            <p>
+              <i class="bi bi-telephone-fill me-2"></i>
+
+              +234 800 123 4567
+            </p>
+
+            <p>
+              <i class="bi bi-clock-fill me-2"></i>
+
+              Mon - Fri : 8am - 6pm
+            </p>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="copyright mb-md-0">
+              © 2026 Tech-Novax Technologies. All Rights Reserved.
+            </p>
+          </div>
+
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="footer-small-link"> Privacy Policy </a>
+
+            <span class="mx-2">|</span>
+
+            <a href="#" class="footer-small-link"> Terms of Service </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll To Top -->
+
+      <a href="#" class="back-to-top">
+        <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
