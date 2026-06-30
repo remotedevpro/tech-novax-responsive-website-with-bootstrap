@@ -2,7 +2,9 @@
     font-family: "Noto Sans", sans-serif;
  }
  
-
+h1 {
+    font-size: 50px;
+}
  h1, h2 {
     font-family: "Lora", serif;
  }
@@ -19,6 +21,282 @@
  .navbar-brand {
    font-family: "Lora",serif;
  }
+
+
+/*animations to  CSS*/
+
+/*Fade from Left*/
+
+
+
+@keyframes fadeLeft{
+
+from{
+
+opacity:0;
+
+transform:translateX(-60px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+
+/*Fade from Right*/
+
+@keyframes fadeRight{
+
+from{
+
+opacity:0;
+
+transform:translateX(60px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+
+
+/*Fade Up*/
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+ 
+
+/*Floating Image*/
+
+
+@keyframes floating{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/*Apply the animations*/
+
+/*Heading*/
+
+.hero-title{
+
+opacity:0;
+
+animation:fadeLeft .9s ease forwards;
+
+}
+
+
+/*Paragraph*/
+
+.hero-text{
+
+opacity:0;
+
+animation:fadeLeft .9s ease forwards;
+
+animation-delay:.4s;
+
+}
+
+
+/*Buttons*/
+
+.hero-buttons{
+
+opacity:0;
+
+animation:fadeUp .8s ease forwards;
+
+animation-delay:.8s;
+
+}
+
+.hero-buttons .btn{
+
+transition:.35s;
+
+}
+
+.hero-buttons .btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+
+
+/*Trust Badges*/
+
+.hero-badges{
+
+opacity:0;
+
+animation:fadeUp .8s ease forwards;
+
+animation-delay:1.2s;
+
+}
+
+
+
+/*Hero Image*/
+
+.hero-image{
+
+opacity:0;
+
+animation:
+
+fadeRight 1s ease forwards,
+
+floating 4s ease-in-out infinite;
+
+animation-delay:
+
+.6s,
+
+1.6s;
+
+transition: .4s;
+
+}
+
+
+
+.hero-image:hover{
+
+transform:scale(1.03);
+
+}
+
+/*the Glass Card*/
+
+.hero-image-wrapper{
+
+    position:relative;
+
+}
+
+
+.hero-stats-card{
+
+    position:absolute;
+
+    bottom:-35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:85%;
+
+    background:rgba(255,255,255,.85);
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+    transition: .4s;
+
+    opacity:0;
+
+    animation:fadeUp .8s ease forwards;
+
+    animation-delay:1.5s;
+
+}
+
+
+.hero-stats-card:hover{
+
+    transform:translateX(-50%) translateY(-8px);
+
+}
+
+
+
+.hero-stats-card h4{
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+}
+
+
+
+.hero-stats-card small{
+
+    color:#6c757d;
+
+    font-size:.85rem;
+
+}
+
+
+
+
+
 /*
  .yellow {
    color:yellow
@@ -31,10 +309,16 @@
  }
 
 */
-
+/*
  .header-title {
-   font-size: 48px;
+   font-size: 70px;
  }
+
+
+.min-vh-75{
+    min-height:75vh;
+}
+
 
  .client-img {
   object-fit: contain;
@@ -239,6 +523,7 @@ box-shadow:0 20px 40px rgba(0,0,0,.15);
     );
 
 }
+
 
 .about-bg-circle{
 

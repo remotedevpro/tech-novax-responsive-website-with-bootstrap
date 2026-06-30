@@ -76,7 +76,7 @@
           </ul>
 
           <div class="d-flex gap-5 mb-3 py-3">
-            <a href="#contact" class="btn btn-primary rounded-pill px-4 ">
+            <a href="#contact" class="btn btn-primary rounded-pill px-4">
               Connect with us
             </a>
           </div>
@@ -88,38 +88,123 @@
 
     <!-- ================= HEADER / HERO SECTION ===     -->
 
+    <!--
     <header class="bg-primary d-flex align-items-center text-white py-5 mt-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-5">
-            <h1 class="header-title p-4">
-              Discover <br />What we Can <br />
-              Achieve Together
+    -->
+
+    <header
+      id="hero"
+      class="bg-primary text-white d-flex align-items-center min-vh-100"
+    >
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <!-- Text Part -->
+          <div class="col-lg-6">
+            <!--HTML  Animation Classes : hero-title , hero-text, hero-buttons, hero-badges, hero-image-->
+            <!--Hero Heading-->
+            <h1 class="display-2 fw-bold lh-sm mb-4 hero-title">
+              Discover What We Can
+              <span class="d-block"> Achieve Together </span>
             </h1>
 
-            <p class="lead">
+            <!--Hero Subheadings- Paragraph-->
+            <p class="lead mb-4 hero-text">
               Join us on journey of innovation and success. We are committed to
               delivering solutions that elevate your business and turn your
               vision into reality.
             </p>
 
-            <div class="d-flex gap-5 mb-3 py-3">
-              <a href="#about" class="btn btn-warning rounded-pill px-4">
+            <!--Hero Buttons-->
+
+            <div class="d-flex gap-3 mb-4 py-3 hero-buttons">
+              <a
+                href="#about"
+                id="explore-btn"
+                class="btn btn-warning btn-lg rounded-pill px-4"
+              >
                 Discover More
               </a>
 
-              <a href="#contact" class="btn btn-success rounded-pill px-4">
+              <a
+                href="#contact"
+                class="btn btn-success btn-lg rounded-pill px-4"
+              >
                 Get Started
               </a>
             </div>
+
+            <!--Trust Badges-->
+
+            <div class="d-flex flex-wrap gap-4 mt-4 hero-badges">
+              <div>
+                <i class="bi bi-check-circle-fill text-warning"></i>
+
+                Innovative Solutions
+              </div>
+
+              <div>
+                <i class="bi bi-check-circle-fill text-warning"></i>
+
+                Secure Infrastructure
+              </div>
+
+              <div>
+                <i class="bi bi-check-circle-fill text-warning"></i>
+
+                24/7 Technical Support
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-7">
-            <img
-              src="images/hero-image/hero-image.jpg"
-              class="img-fluid rounded shadow"
-              alt="Header Image"
-            />
+          <!-- Image Part -->
+          <div class="col-lg-6 text-center">
+            <div class="hero-image-wrapper position-relative d-inline-block">
+              <img
+                src="images/hero-image/hero-image.jpg"
+                class="img-fluid rounded-4 shadow-lg mb-4 hero-image"
+                alt="Tech professionals collaborating"
+              />
+
+              <!-- Hero Stats Part -->
+              <div
+                class="card shadow-lg border-0 rounded-4 p-3 mt-4 mx-auto mt-5 hero-stats-card hero-badges"
+                style="max-width: 320px"
+              >
+                <div class="d-flex justify-content-between">
+
+                  <div class="col-4 text-center">
+
+                    <i class="bi bi-rocket-takeoff-fill text-primary fs-3"></i>
+
+                    <h4 class="fw-bold text-primary mb-0">500+</h4>
+
+                    <small>Projects</small>
+
+                  </div>
+
+                  <div class="col-4 text-center">
+
+                     <i class="bi bi-award-fill text-warning fs-3"></i>
+
+                    <h4 class="fw-bold text-primary mb-0">98%</h4>
+
+                    <small>Satisfaction</small>
+                  </div>
+
+                  <div class="col-4 text-center">
+
+                    <i class="bi bi-headset text-success fs-3"></i>
+
+
+                    <h4 class="fw-bold text-primary mb-0">24/7</h4>
+
+                    <small>Support</small>
+
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -128,8 +213,10 @@
     <!-- ================= END HEADER / HERO ================= -->
 
     <!-- ================= STATISTICS SECTION ===     -->
-
+    <!--
     <section id="statistics" class="stats-section py-5">
+    -->
+    <section id="statistics" class="stats-section py-5 min-vh-75">
       <div class="container">
         <div class="text-center mb-5 fs-3">
           <span class="badge bg-primary px-3 py-2 mb-3">
@@ -214,15 +301,13 @@
 
     <!-- ================= END STATISTICS ================= -->
 
-
-
     <hr class="my-2" />
 
     <!-- ===================== ABOUT SECTION ===================== -->
 
     <section
       id="about"
-      class="about-section py-5 position-relative overflow-hidden"
+      class="about-section py-5 position-relative overflow-hidden min-vh-100"
     >
       <div class="container">
         <!-- Section Heading -->
@@ -285,7 +370,7 @@
             </p>
 
             <!-- Highlight Card -->
-<!--
+            <!--
             <div class="card border-0 shadow-sm rounded-4 mb-4">
               <div class="card-body">
                 <h5 class="fw-bold">Our Commitment</h5>
@@ -621,7 +706,6 @@
     </section>
     <!-- ================= END SERVICES ================= -->
 
-    
     <!-- ===================== PROJECTS SECTION ===================== -->
 
     <section id="projects" class="py-5 bg-body-tertiary">
@@ -983,7 +1067,6 @@
       </div>
     </section>
     <!-- ================= END CLIENTS ================= -->
-
 
     <!--======TESTIMONIAL -->
 
